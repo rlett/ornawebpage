@@ -1,22 +1,28 @@
 @font-face{
     font-family: Cinzel-Bold;
-    src: url(fonts/Cinzel-Bold.ttf);
+    src: url('../Fonts/CinzelDecorative-Bold.ttf');
 }
 @font-face{
-    font-family: Merriweather;
-    src: url(fonts/Merriweather-Regular.ttf);
+    font-family: Merriweather Sans;
+    src: url('../Fonts/MerriweatherSans-Regular.ttf');
 }
 
 body{
-    font-family: 'Cinzel-Bold', 'Merriweather', serif;
-    background-image: url('./mainsprites/bg.png');
+    font-family: 'Cinzel-Bold', 'Merriweather Sams', serif;
+    background-image: url('../Images/forest.jpg');
     background-size: 125%;
     background-attachment: fixed;
     margin: 0;
 }
 
-h1, h2, h3{
+h2, h3{
     color:white;
+    text-shadow: 3px 3px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    text-align: center;
+}
+
+h1{
+    color:gray;
     text-shadow: 3px 3px black, -1px -1px black, 1px -1px black, -1px 1px black;
     text-align: center;
 }
@@ -34,12 +40,12 @@ h4{
 p{
     color: white;
     text-shadow: 2px 2px black;
-    font-family: 'Merriweather', Arial, serif;
+    font-family: 'Merriweather Sans', Arial, serif;
     font-size: 90%;
 }
 
 table td{
-    padding: 0px 10px;
+    padding: 15px;
 }
 
 table{
@@ -80,7 +86,7 @@ table a{
 }
   
 .navbar p{
-    font-family: 'Cinzel-Bold', 'Merriweather', serif;
+    font-family: 'Cinzel-Bold', 'Merriweather Sans', serif;
     font-size: 200%;
     padding: 3px 16px;
     margin: 0px;
@@ -132,10 +138,10 @@ table a{
 }
 
 label{
-    font-family: 'Merriweather', Arial, serif;
+    font-family: 'Merriweather Sans', Arial, serif;
     color: white;
 }
 
 .name{
-    font-family: 'Cinzel-Bold', 'Merriweather', serif;
+    font-family: 'Cinzel-Bold', 'Merriweather Sans', serif;
 }
